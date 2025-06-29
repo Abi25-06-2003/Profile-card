@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/background\ image.avif);
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.title {
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.socials a img {
+  width: 24px;
+  margin: 0 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.socials a:hover img {
+  transform: scale(1.2);
+}
